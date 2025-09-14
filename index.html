@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>CSS3 & JS Animation Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Bringing Pages to Life: CSS3 & JS</h1>
+
+  <!-- Part 1: CSS3 Transitions & Animations -->
+  <section id="part1">
+    <h2>Part 1: CSS3 Transitions & Animations</h2>
+
+    <!-- 1a: Button Hover Transition -->
+    <button class="hover-button">Hover Me</button>
+
+    <!-- 1b: Slide-in Box (on load) -->
+    <div class="slide-box">I slide in</div>
+
+    <!-- 1c: Continuous Spinner -->
+    <div class="spinner"></div>
+
+    <!-- 1d: Fade-in/Fade-out Box -->
+    <div class="fade-box">I fade in & out</div>
+  </section>
+
+  <!-- Part 2: JavaScript Functions -->
+  <section id="part2">
+    <h2>Part 2: JS Functions (Scope, Params, Returns)</h2>
+
+    <div class="func-demo">
+      <button id="runFuncs">Run Demo Functions</button>
+      <pre id="funcOutput"></pre>
+    </div>
+  </section>
+
+  <!-- Part 3: Combining CSS & JS -->
+  <section id="part3">
+    <h2>Part 3: JS-Triggered Animations</h2>
+
+    <!-- 3a: Animate Box on Click -->
+    <button id="animateBtn">Animate the Box</button>
+    <div id="animBox">Box</div>
+
+    <!-- 3b: Card Flip -->
+    <div class="card">
+      <div class="card-inner" id="cardInner">
+        <div class="card-front">Front</div>
+        <div class="card-back">Back</div>
+      </div>
+      <button id="flipBtn">Flip Card</button>
+    </div>
+
+    <!-- 3c: Start/Stop Spinner -->
+    <button id="startSpinner">Start Spinner</button>
+    <button id="stopSpinner">Stop Spinner</button>
+    <div id="spinnerControl" class="spinner"></div>
+
+    <!-- 3d: Modal Slide & Fade -->
+    <button id="showModal">Show Modal</button>
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span id="closeModal" class="close">&times;</span>
+        <p>This is a modal.</p>
+      </div>
+    </div>
+
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
